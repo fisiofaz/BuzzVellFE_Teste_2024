@@ -8,7 +8,7 @@
 
 }
 
-.nav .nav_menuleft, .nav .nav_menubutton {
+.nav .nav_menuleft, .nav .btn {
     display: flex;
     align-items: center;
     gap: 3rem;
@@ -27,74 +27,21 @@
     font-weight: 500;
 }
 
-.nav .nav_menubutton .nav_menubutton__phone {
+.btn .btn__phone {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 1.5rem;
 }
 
-.nav .nav_menubutton .nav_menubutton__phone img {
+.btn .btn__phone img {
     width: 2rem;
     height: 1.9rem;
 }
-
-.nav .nav_menubutton .nav_menubutton__phone p {
+.btn .btn__phone p {
     font-size: 1.6rem;
     line-height: 2.4rem;
     font-weight: 500;
     color: var(--color-text-phone);
 }
 
-.nav .nav_menubutton .nav_menubutton__button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 2.5rem;
-    padding: 2rem 3rem;
-
-    background-color: var(--color--bg);
-    border: 2px solid var(--color-btn-secundario-boder);    
-    border-radius: 10rem;
-    
-    font-size: 2.4rem;
-    font-weight: 700;
-    line-height: 2.4rem;
-    color: var(--color-btn-secundario-text);
-}
-
-.nav .nav_menubutton__button .nav_menubutton__button-container {
-    position: relative;
-}
-
-.nav_menubutton__button-purple, .nav_menubutton__button-yellow {
-    transition: opacity 0.3s ease, visibility 0.3s ease; 
-    position: absolute; 
-    top: -1rem;
-    left: -1.2rem;
-}
-
-.nav .nav_menubutton__button .nav_menubutton__button-purple {
-    opacity: 1;
-    visibility: visible;
-}
-
-.nav .nav_menubutton__button .nav_menubutton__button-yellow {
-    opacity: 0; 
-    visibility: hidden;
-}
-
-.nav .nav_menubutton .nav_menubutton__button:hover ~ .nav_menubutton__button-purple {
-    opacity: 0; 
-    visibility: hidden;
-}
-
-.nav .nav_menubutton__button:hover .nav_menubutton__button-yellow {
-    opacity: 1; 
-    visibility: visible;
-}
-
-.nav .nav_menubutton__button:hover {
-    background-color: var(--color-btn-secundario-hover);
-    color: var(--color-btn-secundario-text-hover);
-}

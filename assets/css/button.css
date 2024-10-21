@@ -1,0 +1,51 @@
+.btn__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    padding: 2rem 3rem;
+
+    background-color: var(--color--bg);
+    border: 2px solid var(--color-btn-secundario-boder);    
+    border-radius: 10rem;
+    
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 2.4rem;
+    color: var(--color-btn-secundario-text);
+}
+
+.btn__button .btn__button-container {
+    position: relative;
+}
+
+.btn__button-purple, .btn__button-yellow {
+    transition: opacity 0.3s ease, visibility 0.3s ease; 
+    position: absolute; 
+    top: -1rem;
+    left: -1.2rem;
+}
+
+.btn__button .btn__button-purple {
+    opacity: 1;
+    visibility: visible;
+}
+.btn__button .btn__button-yellow {
+    opacity: 0; 
+    visibility: hidden;
+}
+
+.btn__button:hover ~ .btn__button-purple {
+    opacity: 0; 
+    visibility: hidden;
+}
+
+.btn__button:hover .btn__button-yellow {
+    opacity: 1; 
+    visibility: visible;
+}
+
+.btn__button:hover {
+    background-color: var(--color-btn-secundario-hover);
+    color: var(--color-btn-secundario-text-hover);
+}
