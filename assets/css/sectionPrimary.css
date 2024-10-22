@@ -1,12 +1,8 @@
-main {
-    padding-top: 15rem;
-}
 .main-content {
     display: flex;   
     justify-content: space-between;
-    padding: 5rem;
     max-width: 120rem;
-    margin: 0 auto;
+    margin: 0 0 10rem 8rem;
 }
   
 .left-section {
