@@ -16,8 +16,12 @@
 }
 body, button, input, label, h1, h2, h3, h5, h6, p, span{
     font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    color: var(--color-text-primary);   
 }
 
 .body {
     background-color: var(--color-bg);
-}
+    max-width: 120rem;
+    overflow-x: hidden; 
+} 
