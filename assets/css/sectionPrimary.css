@@ -2,7 +2,7 @@
     display: flex;   
     justify-content: space-between;
     max-width: 120rem;
-    margin: 0 0 10rem 8rem;
+    margin: 0 0 5rem 8rem;
 }
   
 .left-section {
@@ -61,6 +61,7 @@
     font-weight: 400;
     line-height: 2.24rem;
     margin-top: 1rem;
+    
 }
   
 .right-section {

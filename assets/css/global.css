@@ -5,6 +5,7 @@
     font-size: 62.5%;
     --color-bg: #F7F7F7;
     --color-text-primary: #0F172A;
+    --color-text-secundary: #D97706;
     --color-text-phone: #0369A1;
     --color-btn-primary-boder: #FCD34D;
     --color-btn-primary-hover:  #FCD34D;
@@ -13,6 +14,9 @@
     --color-btn-secundario-text: #581C87;
     --color-btn-secundario-hover: #581C87;
     --color-btn-secundario-text-hover: #FCD34D;
+    --color-circle-orange: #F59E0B;
+    --color-circle-purple: #7E22CE;
+
 }
 body, button, input, label, h1, h2, h3, h5, h6, p, span{
     font-family: 'Roboto', sans-serif;
