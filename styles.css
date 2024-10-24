@@ -5,7 +5,8 @@
 @import url('./assets/css/circle.css');
 
 @import url('./assets/css/main.css');
-@import url('./assets/css/sectionPrimary.css');
-@import url('./assets/css/sectionSecundary.css');
-@import url('./assets/css/sectionTertiary.css');
+@import url('./assets/css/sectionMainContent.css');
+@import url('./assets/css/sectionPickTheSun.css');
+@import url('./assets/css/sectionServices.css');
+@import url('./assets/css/sectionFeatures.css');
 
