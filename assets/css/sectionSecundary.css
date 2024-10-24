@@ -14,13 +14,6 @@
     margin: 0 auto;
 }
 
-.pick-the-sun span {
-    font-size: 2rem;
-    font-weight: 500;
-    line-height: 2.2rem;
-    color: var(--color-text-secundary);
-}
-
 .pick-the-sun h2 {
     font-size: 5.6rem;
     font-weight: 800;

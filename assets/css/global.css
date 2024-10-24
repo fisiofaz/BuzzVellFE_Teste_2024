@@ -16,7 +16,7 @@
     --color-btn-secundario-text-hover: #FCD34D;
     --color-circle-orange: #F59E0B;
     --color-circle-purple: #7E22CE;
-
+    --color-rectangle-purple: #581C87;
 }
 body, button, input, label, h1, h2, h3, h5, h6, p, span{
     font-family: 'Roboto', sans-serif;
@@ -29,3 +29,18 @@ body, button, input, label, h1, h2, h3, h5, h6, p, span{
     max-width: 120rem;
     overflow-x: hidden; 
 } 
+
+
+.pick-the-sun span, .services-content span {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 2.2rem;
+    color: var(--color-text-secundary);
+}
+
+.pick-the-sun h2, .services-content h2 {
+    font-size: 5.6rem;
+    font-weight: 800;
+    line-height: 6.16rem;
+}
+

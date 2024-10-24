@@ -73,17 +73,7 @@
     z-index: 999;
     overflow: hidden; 
 }  
-  
-.circle {
-    width: 100%;
-    height: 100%;
-    background-color: #B3E5FC;
-    border-radius: 50% 0 50% 50%;
-
-    position: relative;
-
-}
-  
+   
 .worker-img {
     width: 100%;
     height: 100%;
