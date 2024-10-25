@@ -17,6 +17,8 @@
     --color-circle-orange: #F59E0B;
     --color-circle-purple: #7E22CE;
     --color-rectangle-purple: #581C87;
+    --color-rectangle-yello: #FBBF24;
+
 }
 body, button, input, label, h1, h2, h3, h5, h6, p, span{
     font-family: 'Roboto', sans-serif;
@@ -31,16 +33,29 @@ body, button, input, label, h1, h2, h3, h5, h6, p, span{
 } 
 
 
-.pick-the-sun span, .services-content span {
+.pick-the-sun span, .services-content span, .features-text span {
     font-size: 2rem;
     font-weight: 500;
     line-height: 2.2rem;
     color: var(--color-text-secundary);
 }
 
-.pick-the-sun h2, .services-content h2 {
+.pick-the-sun h2, .services-content h2, .features-text h2  {
     font-size: 5.6rem;
     font-weight: 800;
     line-height: 6.16rem;
 }
+
+.left-section p, .pick-the-sun p,  .services-content p, .features-text p   {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 3rem;
+    margin-bottom: 2rem;
+}
+
+  .mobile-mockup {
+    width: 40%;
+    position: relative;
+  }
+  
 
